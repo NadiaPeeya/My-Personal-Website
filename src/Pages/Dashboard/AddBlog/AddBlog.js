@@ -53,7 +53,7 @@ const AddBlog = () => {
                 sx={{ width: '70%', m: 1 }}
                 name="name"
                 onBlur={handleOnBlur}
-                label="blogName"
+                label="Blog Name"
                 id="outlined-size-small"
                 size="small"
             />

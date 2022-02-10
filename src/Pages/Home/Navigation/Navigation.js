@@ -43,8 +43,12 @@ const Navigation = () => {
        <NavHashLink className='styling-nav fw-bold'
   to="/dashboard"
 
->Dashboard</NavHashLink>
-<Button  onClick={logOut} className="styling-nav fw-bold" color="inherit"> Logout
+>DASHBOARD</NavHashLink>
+       <NavHashLink className='styling-nav fw-bold'
+  to="/login"
+
+>ADMIN</NavHashLink>
+<Button  onClick={logOut} className="styling-nav fw-bold" color="inherit"> LOGOUT
      </Button> 
     </Box>
   

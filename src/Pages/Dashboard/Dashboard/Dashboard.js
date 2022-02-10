@@ -58,7 +58,7 @@ function Dashboard(props) {
                         <Button sx={{ color:'whtie' }} color="inherit">Add Blog</Button>
                     </NavLink>
                     <NavLink style={{ display: 'block', marginY: 3, textDecoration: 'none', color: 'white' }} to={`${url}/manageBlogs`}>
-                        <Button sx={{ backgroundColor: '#333333',color:'whtie'  }} color="inherit">Manage Blogs</Button>
+                        <Button sx={{ color:'whtie'  }} color="inherit">Manage Blogs</Button>
                     </NavLink>
 
 
