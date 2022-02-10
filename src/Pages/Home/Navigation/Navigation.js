@@ -31,10 +31,10 @@ const Navigation = () => {
   to="/contact"
 
 >CONTACT</NavHashLink>
-          {/* <NavHashLink className='styling-nav fw-bold'
+<NavHashLink className='styling-nav fw-bold'
   to="/login"
 
->LOGIN</NavHashLink> */}
+>ADMIN</NavHashLink>
           </Nav>
           {
     user.email &&   
@@ -44,11 +44,8 @@ const Navigation = () => {
   to="/dashboard"
 
 >DASHBOARD</NavHashLink>
-       <NavHashLink className='styling-nav fw-bold'
-  to="/login"
 
->ADMIN</NavHashLink>
-<Button  onClick={logOut} className="styling-nav fw-bold" color="inherit"> LOGOUT
+<Button  onClick={logOut} className="styling-nav-logout fw-bold" color="inherit"> LOGOUT
      </Button> 
     </Box>
   
