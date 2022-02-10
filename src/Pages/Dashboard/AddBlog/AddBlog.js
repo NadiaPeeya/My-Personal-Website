@@ -57,6 +57,14 @@ const AddBlog = () => {
                 id="outlined-size-small"
                 size="small"
             />
+            <TextField
+                sx={{ width: '70%', m: 1 }}
+                name="catagory"
+                onBlur={handleOnBlur}
+                label="Catagory"
+                id="outlined-size-small"
+                size="small"
+            />
             
 
             <TextField

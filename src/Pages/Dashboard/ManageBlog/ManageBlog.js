@@ -64,9 +64,10 @@ const ManageBlog = () => {
                         <TableRow>
 
                             <TableCell style={{fontWeight: '700', color: '#2c2727' }} className='fs-5' align="left">Blog Banners</TableCell>
-                            <TableCell style={{fontWeight: '700', color: '#2c2727' }} align="left">Blog Name</TableCell>
-                            <TableCell style={{fontWeight: '700', color: '#2c2727' }} align="left"> Date</TableCell>
-                            <TableCell style={{fontWeight: '700', color: '#2c2727' }} align="left">Delete Blog</TableCell>
+                            <TableCell style={{fontWeight: '700', color: '#2c2727' }} className='fs-5' align="left">Blog Category</TableCell>
+                            <TableCell className='fs-5' style={{fontWeight: '700', color: '#2c2727' }} align="left">Blog Name</TableCell>
+                            <TableCell className='fs-5' style={{fontWeight: '700', color: '#2c2727' }} align="left"> Date</TableCell>
+                            <TableCell className='fs-5' style={{fontWeight: '700', color: '#2c2727' }} align="left">Delete Blog</TableCell>
 
                         </TableRow>
                     </TableHead>
@@ -78,11 +79,13 @@ const ManageBlog = () => {
                             >
 
                                 <TableCell align="left"><img style={{ height: '150px', width: '205px', borderRadius: '20px' }} src={row.img} alt="" /></TableCell>
+                                     
+                                <TableCell style={{ color: '#2c2727' }} align="left">{row.catagory}</TableCell>
                                 <TableCell style={{ color: '#2c2727' }} align="left">{row.name}</TableCell>
                                 <TableCell style={{ color: '#2c2727' }} align="left">{row.date}</TableCell>
                                 <TableCell align="left">
 
-                                    <Button className='manage-blog' onClick={() => handleDelete(row._id)} sx={{ backgroundColor: '#2c2727', m: 1 }} variant="contained"><DeleteForeverOutlined></DeleteForeverOutlined> </Button>
+                                    <Button className='manage-blogs' onClick={() => handleDelete(row._id)} sx={{ backgroundColor: '#2c2727', m: 1 }} variant="contained"><DeleteForeverOutlined className='manage-blogs'></DeleteForeverOutlined> </Button>
                                 
 
                                 </TableCell>
@@ -121,7 +124,7 @@ const ManageBlog = () => {
                                 </TableCell>
                                 <TableCell align="center">
 
-                                    <Button onClick={() => handleDelete(row._id)} sx={{ backgroundColor: '#2c2727', m: 1 }} variant="contained"><DeleteForeverOutlined></DeleteForeverOutlined> </Button>
+                                    <Button className='manage-blogs' onClick={() => handleDelete(row._id)} sx={{ backgroundColor: '#2c2727', m: 1 }} variant="contained"><DeleteForeverOutlined></DeleteForeverOutlined> </Button>
                                    
 
                                 </TableCell>
