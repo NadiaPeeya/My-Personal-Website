@@ -20,7 +20,7 @@ const AboutMe = () => {
   </Grid>
   <Grid item xs={12} md={6}>
   <p className='writing-text' style={{textAlign: "left",}}> <span className='fw-bolder bold-text' style={{ fontWeight: "900"}}>Name: </span> Nadia Rahman </p>
-  <p className='writing-text' style={{textAlign: "left"}}><span className='fw-bolder bold-text' style={{ fontWeight: "600"}}>Address: </span>  West Kafrul Taltola 178/2a </p>
+  <p className='writing-text' style={{textAlign: "left"}}><span className='fw-bolder bold-text' style={{ fontWeight: "600"}}>Address: </span>  178/2/A, west kafrul,Sher-E-Bangla Nagar, Dhaka 1206 , Bangladesh </p>
   <p className='writing-text' style={{textAlign: "left"}}><span className='fw-bolder bold-text' style={{ fontWeight: "600"}}>Study: </span>  Bsc In Computer Science </p>
   <p className='writing-text' style={{textAlign: "left"}}><span className='fw-bolder bold-text' style={{ fontWeight: "600"}}>Email: </span> nadiapeeya05@gmail.com </p>
   <p className='writing-text' style={{textAlign: "left"}}><span className='fw-bolder bold-text' style={{ fontWeight: "600"}}>Phone: </span> +8801832666987</p>

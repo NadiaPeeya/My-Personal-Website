@@ -71,7 +71,7 @@ const ContactMe = () => {
   <Grid item xs={12} md={4}>
     <div>
      <img width="15%" src={img3} alt="" />
-        <p className='writing-text'>Agargaon Taltola</p>
+        <p className='writing-text'>178/2/A, west kafrul,Sher-E-Bangla Nagar, Dhaka 1206</p>
     </div>
   </Grid>
   <Grid item xs={12} md={4}>
