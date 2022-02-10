@@ -4,13 +4,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const MyImage = () => {
     return (
-        // <div className='background'>
-        //     <img width="76%" src="https://i.ibb.co/gdPSzt0/shari4-removebg-preview.png" alt="" />
-        // </div>
-        <Container>
+        <Container className='my-img'>
         <Row>
           <Col className='background'>
-          <img width="76%" src="https://i.ibb.co/gdPSzt0/shari4-removebg-preview.png" alt="" />
+          <img width="100%" src="https://i.ibb.co/gdPSzt0/shari4-removebg-preview.png" alt="" />
           </Col>
         </Row>
       </Container>
