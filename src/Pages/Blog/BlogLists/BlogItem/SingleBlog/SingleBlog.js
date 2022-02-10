@@ -23,7 +23,7 @@ const SingleBlog = () => {
           <p className='writing-text'   style={{textAlign:"left"}}>{singleBlog.date}</p>
           </div>
 
-          <h5 style={{textAlign:"left", color: "#464040", fontWeight: '700' }} className="card-title">{singleBlog.name}</h5>
+          <h5 data-aos="fade-right"  style={{textAlign:"left", color: "#464040", fontWeight: '700' }} className="card-title animate__animated animate__lightSpeedInLeft animate__delay-0.5s">{singleBlog.name}</h5>
           <p  style={{textAlign: "justify", color: "#2c2727"}} className="card-text">{singleBlog.description}</p>
          
         </div>

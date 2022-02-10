@@ -153,7 +153,7 @@ function Dashboard(props) {
 
 
                     <Route exact path={path}>
-                        <DashboardHome></DashboardHome>
+                       <DashboardHome></DashboardHome>
                     </Route>
 
               

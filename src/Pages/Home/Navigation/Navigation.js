@@ -9,7 +9,7 @@ import { Box } from '@mui/material';
 const Navigation = () => {
     const {user , logOut} = useAuth()
     return (
-        <Navbar collapseOnSelect expand="lg" bg="white" variant="transparent">
+        <Navbar className='navbar-styling' collapseOnSelect expand="lg"  bg="white" variant="transparent">
         <Container>
         <NavHashLink className='styling-navbrand nav-brand' to="/home">NADIA</NavHashLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

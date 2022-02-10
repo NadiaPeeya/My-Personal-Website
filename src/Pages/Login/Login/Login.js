@@ -5,8 +5,9 @@ import Navigation from './../../Home/Navigation/Navigation';
 import Footer from './../../Home/Footer/Footer';
 import './Login.css'
 import { useState } from 'react';
-import { Link, NavLink, useLocation, useHistory } from 'react-router-dom';
+import {  NavLink, useLocation, useHistory } from 'react-router-dom';
 import useAuth from './../../../hooks/useAuth';
+import GoogleIcon from '@mui/icons-material/Google';
 
 const Login = () => {
     const [loginData, setLoginData] = useState({})
@@ -32,8 +33,8 @@ const Login = () => {
     return (
         <div>
             <Navigation></Navigation>
-            <Container className='login mt-5 pt-5'>
-           <Box className='login-box'>
+            <Container className='login mt-3 pt-3'>
+           <Box className='login-box mt-5 pt-5'>
            <Typography variant="body1" gutterBottom>
        
       </Typography>
@@ -60,7 +61,7 @@ const Login = () => {
                             variant="contained">Login</Button>
                                   <Button className='login-btn' onClick={handleGoogleSignIn} sx={{width: '75%', m: 1, backgroundColor: "#2c2727"}} 
                             type="submit"
-                            variant="contained">Sign In With Google</Button>
+                            variant="contained"> Sign In With Google</Button>
                             
                         {
           isLoading && <CircularProgress />

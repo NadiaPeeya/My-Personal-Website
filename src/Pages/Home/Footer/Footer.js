@@ -7,7 +7,7 @@ import img from '../../../images/copyright.png'
 const Footer = () => {
     return (
 
-   <div className='footer container'>
+   <div className='footer container mt-3'>
        <div>
            <h6 style={{color: '#2c2727'}}>Copy Right 2022</h6>
        </div>
