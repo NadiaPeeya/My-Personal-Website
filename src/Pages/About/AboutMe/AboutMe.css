@@ -1,0 +1,53 @@
+
+.about{
+    padding: 10px;
+    height: 575px;
+    overflow: scroll;
+    scroll-margin-left: hidden;
+    overflow-x: hidden;
+    background-color: aliceblue;
+   
+    
+}
+.writing-text{
+  color: #7D7789;
+}
+.bold-text{
+  color: #7D7789;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.progress{
+    color: gray;
+
+}
+
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: gray;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background: #000;
+    border-radius: 10px;
+}
+.about-divider{
+    display: flex;
+}

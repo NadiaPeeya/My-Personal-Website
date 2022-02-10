@@ -1,0 +1,12 @@
+.large-text{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: aliceblue;
+ /* background-color: #212529; */
+}
+
+
+.banner{
+    /* background-color: #212529; */
+}

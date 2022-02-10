@@ -1,0 +1,28 @@
+.large-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 575px;
+    color: #333333;
+ 
+    /* background-color: #212529; */
+   }
+
+   .learn-more{
+       background-color: #333333;
+       padding: 10px;
+       border: 1px solid #333333;
+       border-radius: 5px;
+       color: white;
+       
+
+   }
+   .topHome-text{
+       text-align: left;
+       margin: 5px;
+   }
+
+   .horizontal-line{
+     color: #333333;
+   }

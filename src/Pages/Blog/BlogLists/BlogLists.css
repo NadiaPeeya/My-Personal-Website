@@ -1,0 +1,13 @@
+.viewMore{
+    background-color: #333333;
+}
+
+.viewMore:hover{
+    background-color: #333333;
+    transform: scale(1.01);
+    /* background-color: #464040; */
+}
+.blog-card{
+    height: 100%;
+    
+}

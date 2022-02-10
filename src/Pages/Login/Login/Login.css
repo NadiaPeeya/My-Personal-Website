@@ -1,0 +1,15 @@
+.login{
+    height: 650px;
+   
+}
+.login-box{
+    border: 1px solid aliceblue;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+  
+}
+.login-register{
+    text-decoration: none;
+    
+}
