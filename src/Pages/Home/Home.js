@@ -9,8 +9,6 @@ const Home = () => {
         <div>
             <Navigation></Navigation>
             <TopBanner></TopBanner>
-            {/* <MySkills></MySkills>
-            <Footer></Footer> */}
             <Footer></Footer>
           
         </div>
