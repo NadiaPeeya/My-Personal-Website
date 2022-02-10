@@ -117,7 +117,7 @@ const AboutMe = () => {
 </div>
   <p className='writing-text' style={{textAlign: 'left'}}>JAVASCRIPT</p>
   <div className="progress">
-  <div className="progress-bar bg-secondary" role="progressbar" style={{width: "80%"}}aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+  <div className="progress-bar bg-secondary" role="progressbar" style={{width: "85%"}}aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
 </div>
   <p className='writing-text' style={{textAlign: 'left'}}>REACT JS</p>
   <div className="progress">
@@ -129,15 +129,15 @@ const AboutMe = () => {
 </div>
   <p className='writing-text' style={{textAlign: 'left'}}>MONGODB</p>
   <div className="progress">
-  <div className="progress-bar bg-secondary" role="progressbar" style={{width: "75%"}}aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+  <div className="progress-bar bg-secondary" role="progressbar" style={{width: "70%"}}aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
 </div>
 <p className='writing-text' style={{textAlign: 'left'}}>PYTHON</p>
   <div className="progress">
-  <div className="progress-bar bg-secondary" role="progressbar" style={{width: "85%"}}aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+  <div className="progress-bar bg-secondary" role="progressbar" style={{width: "75%"}}aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
 </div>
 <p className='writing-text' style={{textAlign: 'left'}}>Machine Learning</p>
   <div className="progress">
-  <div className="progress-bar bg-secondary" role="progressbar" style={{width: "85%"}}aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+  <div className="progress-bar bg-secondary" role="progressbar" style={{width: "65%"}}aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
 </div>
   </Grid>
   <Grid item xs={12} md={6}>
