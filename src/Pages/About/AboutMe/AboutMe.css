@@ -2,6 +2,7 @@
 .about{
     padding: 10px;
     height: 755px;
+    width: 100%;
     overflow: scroll;
     scroll-margin-left: hidden;
     overflow-x: hidden;
