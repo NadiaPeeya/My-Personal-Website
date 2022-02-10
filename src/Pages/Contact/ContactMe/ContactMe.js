@@ -43,7 +43,7 @@ const ContactMe = () => {
     }
       e.preventDefault();
       
-      fetch('http://localhost:5000/reviewMessages', {
+      fetch('https://murmuring-meadow-96410.herokuapp.com/reviewMessages', {
           method: 'POST',
           headers: {
               'content-type': 'application/json'

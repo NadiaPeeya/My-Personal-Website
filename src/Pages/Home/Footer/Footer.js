@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import './Footer.css'
+import img from '../../../images/copyright.png'
 
 
 const Footer = () => {

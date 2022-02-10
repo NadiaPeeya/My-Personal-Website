@@ -21,7 +21,7 @@ const AddBlog = () => {
         setBlogAdded(false);
         e.preventDefault();
         
-        fetch('http://localhost:5000/blogs', {
+        fetch('https://murmuring-meadow-96410.herokuapp.com/blogs', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

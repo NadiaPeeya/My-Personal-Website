@@ -10,7 +10,7 @@ const ManageBlog = () => {
     const [allBlogs, setAllBlogs] = useState([])
     const [success, setSucsess] = useState(false);
     useEffect(() => {
-        fetch('http://localhost:5000/blogs', {
+        fetch('https://murmuring-meadow-96410.herokuapp.com/blogs', {
             headers: {
                 'authorization': `Bearer ${token}`
             }
@@ -27,7 +27,7 @@ const ManageBlog = () => {
         setSucsess(false);
         if (window.confirm('Are you sure you want to delete this bike from database?')) {
 
-            const url = `http://localhost:5000/blogs/${id}`
+            const url = `https://murmuring-meadow-96410.herokuapp.com/blogs/${id}`
             fetch(url, {
                 method: 'DELETE',
                 headers: {

@@ -10,7 +10,7 @@ const BlogPage = () => {
 
      
     useEffect(() => {
-        fetch('http://localhost:5000/blogs')
+        fetch('https://murmuring-meadow-96410.herokuapp.com/blogs')
         .then(res => res.json())
         .then(data => setBlogs(data))
     }, [])
