@@ -13,10 +13,10 @@ const ContactHome = () => {
             <Navigation></Navigation>
             <Container>
   <Grid container spacing={0}>
-  <Grid item xs={5}>
+  <Grid item xs={12} md={5}>
    <MyImage></MyImage>
   </Grid>
-  <Grid item xs={7}>
+  <Grid item xs={12} md={7}>
 <ContactMe></ContactMe>
   </Grid>
 
