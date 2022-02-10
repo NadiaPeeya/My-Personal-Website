@@ -94,7 +94,7 @@ const AddBlog = () => {
             />
        
             <br />
-            <Button sx={{ backgroundColor: '#333333', m: 1 }} type="submit" variant="contained"> <Add sx={{marginX:1}}/> Add To Database</Button>
+            <Button sx={{ backgroundColor: '#2c2727', m: 1 }} type="submit" variant="contained"> <Add sx={{marginX:1}}/> Add To Database</Button>
         </form>
         {/* <NavLink style={{textDecoration:'none'}} to='/'>
         <Button sx={{margin: '20px'}} variant="outlined">Home</Button>

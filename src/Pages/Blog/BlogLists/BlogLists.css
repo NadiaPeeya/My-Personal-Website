@@ -1,9 +1,9 @@
 .viewMore{
-    background-color: #333333;
+    background-color: #2c2727;
 }
 
 .viewMore:hover{
-    background-color: #333333;
+    background-color: #2c2727;
     transform: scale(1.01);
     /* background-color: #464040; */
 }

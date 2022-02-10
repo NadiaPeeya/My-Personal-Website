@@ -198,7 +198,7 @@ const AboutMe = () => {
         <p style={{border: '1px solid gray', backgroundColor: "#7D7789", borderRadius:"10px", color: "white"}}>2017-2022</p>
     </Col>
     <Col>
-    <p style={{textAlign: 'left', fontWeight: "bolder", color: "#333333"}}>North South University</p>
+    <p style={{textAlign: 'left', fontWeight: "bolder", color: "#2c2727"}}>North South University</p>
     </Col>
   </Row>
   <Row>
@@ -206,7 +206,7 @@ const AboutMe = () => {
         <p style={{border: '1px solid gray', backgroundColor: "#7D7789", borderRadius:"10px", color: "white"}}>2014-2016</p>
     </Col>
     <Col>
-    <p style={{textAlign: 'left', fontWeight: "bolder", color: "#333333"}}>Shaheed Police Smrity College</p>
+    <p style={{textAlign: 'left', fontWeight: "bolder", color: "#2c2727"}}>Shaheed Police Smrity College</p>
     </Col>
   </Row>
   <Row>
@@ -214,7 +214,7 @@ const AboutMe = () => {
         <p style={{border: '1px solid gray', backgroundColor: "#7D7789", borderRadius:"10px", color: "white"}}>2012-2014</p>
     </Col>
     <Col>
-    <p style={{textAlign: 'left', fontWeight: "bolder", color: "#333333"}}>Mirpur Girl's Ideal Laboratory Institute</p>
+    <p style={{textAlign: 'left', fontWeight: "bolder", color: "#2c2727"}}>Mirpur Girl's Ideal Laboratory Institute</p>
     </Col>
   </Row>
   </Container>
@@ -228,7 +228,7 @@ const AboutMe = () => {
     </Col>
 
     <Col >
-    <p style={{textAlign: 'left', fontWeight: "bolder", color: "#333333"}}>Uddog O Uddokta Japan  
+    <p style={{textAlign: 'left', fontWeight: "bolder", color: "#2c2727"}}>Uddog O Uddokta Japan  
     </p>
    <p className='writing-text fw-bold' style={{textAlign: 'left'}}>Intern (Full Stack Developer)</p>
   
@@ -241,7 +241,7 @@ const AboutMe = () => {
     </Col>
 
     <Col >
-    <p style={{textAlign: 'left', fontWeight: "bolder", color: "#333333"}}>3Z CLUB  
+    <p style={{textAlign: 'left', fontWeight: "bolder", color: "#2c2727"}}>3Z CLUB  
     </p>
    <p className='writing-text fw-bold' style={{textAlign: 'left'}}>Deputy Key Member</p>
   

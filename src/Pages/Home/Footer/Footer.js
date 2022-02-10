@@ -9,7 +9,7 @@ const Footer = () => {
 
    <div className='footer container'>
        <div>
-           <h6 style={{color: '#333333'}}>Copy Right 2022</h6>
+           <h6 style={{color: '#2c2727'}}>Copy Right 2022</h6>
        </div>
 
         <div>

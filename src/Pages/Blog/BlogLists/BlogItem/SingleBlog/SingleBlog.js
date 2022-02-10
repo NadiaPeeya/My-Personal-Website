@@ -24,7 +24,7 @@ const SingleBlog = () => {
           </div>
 
           <h5 style={{textAlign:"left", color: "#464040", fontWeight: '700' }} className="card-title">{singleBlog.name}</h5>
-          <p  style={{textAlign: "justify", color: "#333333"}} className="card-text">{singleBlog.description}</p>
+          <p  style={{textAlign: "justify", color: "#2c2727"}} className="card-text">{singleBlog.description}</p>
          
         </div>
       </div>

@@ -1,7 +1,7 @@
 .styling-nav{
     margin: 10px;
     padding: 10px;
-    color: #333333;
+    color: #2c2727;
     text-decoration: none;
     transition: 0.5s;
 
@@ -9,7 +9,7 @@
 .nav-brand{
     font-size: 32px;
     font-family: cursive;
-    color: #333333;
+    color: #2c2727;
     text-decoration: none;
 }
 .styling-nav-logout{
@@ -17,12 +17,12 @@
 }
 
 .styling-nav:hover{
-    background-color: #333333;
+    background-color: #2c2727;
     border-radius: 5px;
     transform: scale(1.02);
     color: white;
 }
 .nav-brand:hover{
-    color: #333333;
+    color: #2c2727;
     font-weight: 900;
 }

@@ -31,7 +31,7 @@ const BlogLists = (props) => {
         </Typography>
       </CardContent>
       <CardActions>
-      <NavLink  className='mx-auto' to={`blogs/blogItem/${_id}`}><Button  className='viewMore' style={{border: '1px solid #333333', boxShadow: '0px 5px 2px gray'}}  size="small">View</Button></NavLink>
+      <NavLink  className='mx-auto' to={`blogs/blogItem/${_id}`}><Button  className='viewMore' style={{border: '1px solid #2c2727', boxShadow: '0px 5px 2px gray'}}  size="small">View</Button></NavLink>
         
       </CardActions>
     </Card>

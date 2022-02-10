@@ -35,9 +35,9 @@ const Register = () => {
             <Navigation></Navigation>
             <Container className='login mt-5 pt-5'>
            <Box className='login-box'>
-           <Typography variant="body1" gutterBottom>
+           {/* <Typography variant="body1" gutterBottom>
          Register
-      </Typography>
+      </Typography> */}
   {!isLoading && <form onSubmit={handleLoginSubmit}>
       <TextField 
       required
@@ -75,7 +75,7 @@ const Register = () => {
                            onBlur={handleOnBlur}
                             variant="standard" />
                             <br />
-                            <Button className="register-btn" sx={{width: '75%', m: 1}} 
+                            <Button className="register-btn my-2" sx={{width: '75%', m: 1}} 
                             type="submit"
                             variant="contained">Register</Button>
                              <NavHashLink className="login-register"

@@ -98,7 +98,7 @@ function Dashboard(props) {
                     {
                         user?.email &&
                             <Box>
-                                <Typography variant="h6" sx={{ display: 'inline', backgroundColor: 'white', color: '#333333', borderBottom: '3px solid aliceBlue', borderRadius: '10px', padding: '9px', marginY: '3px' }}>
+                                <Typography variant="h6" sx={{ display: 'inline', backgroundColor: 'white', color: '#2c2727', borderBottom: '3px solid aliceBlue', borderRadius: '10px', padding: '9px', marginY: '3px' }}>
                                     <Person /> {user.displayName}
                                 </Typography>
                                 <Button

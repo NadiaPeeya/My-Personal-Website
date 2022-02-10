@@ -35,7 +35,7 @@ const Login = () => {
             <Container className='login mt-5 pt-5'>
            <Box className='login-box'>
            <Typography variant="body1" gutterBottom>
-         Login
+       
       </Typography>
       <form onSubmit={handleLoginSubmit}>
       <TextField 
@@ -55,10 +55,10 @@ const Login = () => {
                            onBlur={handleOnBlur}
                             variant="standard" />
                             
-                            <Button sx={{width: '75%', m: 1, backgroundColor: "#333333"}} 
+                            <Button  className='login-btn' sx={{width: '75%', m: 1, backgroundColor: "#2c2727"}} 
                             type="submit" 
                             variant="contained">Login</Button>
-                                  <Button onClick={handleGoogleSignIn} sx={{width: '75%', m: 1, backgroundColor: "#333333"}} 
+                                  <Button className='login-btn' onClick={handleGoogleSignIn} sx={{width: '75%', m: 1, backgroundColor: "#2c2727"}} 
                             type="submit"
                             variant="contained">Sign In With Google</Button>
                             
